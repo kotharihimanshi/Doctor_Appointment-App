@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Route, Routes} from 'react-router-dom'
 import Home from './Pages/Home'
-import Doctors from './Pages/doctors'
+import Doctors from './Pages/Doctors'
 import Login from './Pages/Login'
 import Contact from './Pages/Contact'
 import Myprofile from './Pages/Myprofile'
