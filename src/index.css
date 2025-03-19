@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+
+*{
+    font-family: 'PT Sans';
+}
+
+.bg-primary{
+    background-color: #5f6FFF;
+}
+
+.active hr{
+    @apply block
+}
+
+::-webkit-scrollbar{
+    @apply hidden
+}
+
+@media(max-width:740px){
+    .active p{
+        @apply text-white bg-blue-500
+    }
+}
